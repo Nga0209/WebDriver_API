@@ -36,7 +36,6 @@ public class NewTest {
 	  Assert.assertEquals("http://live.guru99.com/", homePageTitle);
 	 
 	  }
-
   @AfterClass
   public void afterClass() {
 	  driver.quit();
